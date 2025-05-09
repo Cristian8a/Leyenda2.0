@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leyenda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">L | A</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="/MEZCAL/icons8-hamburger-button-50.png" class="menu-icon" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#section0">Inicio</a></li>
+                    <li><a href="#section1">Productos</a></li>
+                    <li><a href="#section2">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+        <div class="header-content container" id="section0">
+            <div class="header-txt">
+                <h1>Leyenda Ahumada</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste sed aperiam fugiat odio accusantium
+                    eaque
+                    pariatur aliquam magnam quis assumenda dicta quaerat distinctio vel voluptatum asperiores, deleniti
+                    incidunt mollitia ad.
+                    Voluptas commodi quod placeat totam laborum atque! Exercitationem eligendi ex debitis nihil
+                    voluptatum
+                    accusamus excepturi corrupti, nobis est, distinctio tempora beatae aut sit earum qui molestiae esse!
+                    Sint, tenetur commodi?</p>
+                <a href="#" class="btn-1">Sección menú</a>
+            </div>
+        </div>
+        <div class="images">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="/MEZCAL/jima.jpg" alt="Caracoles">
+                        <h3>Jima</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/MEZCAL/horno.jpg" alt="Caracoles">
+                        <h3>Horno</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/MEZCAL/apa.jpg" alt="Caracoles">
+                        <h3>ApaGfe</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/MEZCAL/tarde.jpg" alt="Caracoles">
+                        <h3>Tarde</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="rows">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="info container" id="section1">
+            <h2 class="info-title">Información de Producto</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="title-box">
+                        <h3>Perlas de Michoacán 2a. Edición</h3>
+                    </div>
+                    <p><strong>Destilado por</strong> <br> Eugenio Robles Corona<br> en El Fresno, Jiquilpan, Michoacán
+                    </p>
+                    <p><strong>Tipo de Maguey</strong> <br> Manzo cenizo 60% y bruto 40%</p>
+                    <p><strong>Fecha de destilación</strong> <br> Manzo cenizo 60% y bruto 40%</p>
+                    <p><strong>Litros de producción</strong> <br> 1440</p>
+                    <p><strong>Elaboración</strong> <br> Cocido en horno de tierra recubierto de piedra. Molido con
+                        molino eléctrico.Fermentadoen pilas recubiertas con azulejo. Destilado en destilador tipo
+                        árabede acero.</p>
+                    <p><strong>40.1% alc. vol.</strong></p>
+                </div>
+                <div class="card">
+                    <div class="title-box">
+
+                    </div>
+                    <p><strong>Especie</strong> <br> Agave Americano e inaequidence</p>
+                    <p><strong>Herramientas de cosecha</strong> <br> Coa, marro, cincel y guadaña </p>
+                    <p><strong>Magueyera</strong> <br> Cultivada en Sahuayo y Silvestre en Jiquilpan, Mich. </p>
+                    <p><strong>Cocido</strong> <br>Durante 3 días con leña de encino. <br> Tapado con costales y tierra
+                    </p>
+                    <p><strong>Destilación</strong> <br> Doble</p>
+                    <p><strong>Ajuste de alcohol</strong> <br> 40 grados </p>
+                    <p><strong>Marca</strong> <br> Leyenda Ahumada </p>
+                    <p><strong>Lote</strong> <br> RP-1-2018 </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact container" id="section2">
+            <h2 class="contact-title">Contacta con Nosotros</h2>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Nombre:</label>
+                    <input type="text" id="name" name="name" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Mensaje:</label>
+                    <textarea id="message" name="message" rows="5" class="form-textarea" required></textarea>
+                </div>
+                <button type="submit" class="btn-2">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="footer container">
+            <div class="footer-content">
+                <h3>Leyenda Ahumada</h3>
+                <p>&copy; 2025</p>
+            </div>
+            <div class="footer-content">
+                <h3>Enlaces</h3>
+                <ul class="social-links">
+                    <li><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+<!-- End HTML -->
+
+</html>
